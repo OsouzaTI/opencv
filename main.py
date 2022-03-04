@@ -1,7 +1,6 @@
 import cv2, numpy as np
 
-
-img = cv2.imread('m10.png')
+img = cv2.imread('D:\Computer_Science\Python\opencv\pau45.png')
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 gray = cv2.bitwise_not(gray)
 cv2.imshow('gray', gray)
